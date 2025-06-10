@@ -3,7 +3,7 @@
 <section class="slider-home-1 owl-carousel owl-theme">
     @if($banner)
         <div class="hero-section item">
-            <img src="{{ asset($banner->banner1) }}" alt="hero-img" class="hero-img-style"
+            <img src="{{ asset($banner->banner2) }}" alt="hero-img" class="hero-img-style"
                 style="width: 1920px; height: 950px;">
             <div class="container">
                 <div class="row">
