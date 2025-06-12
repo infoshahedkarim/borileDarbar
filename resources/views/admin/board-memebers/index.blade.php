@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html>
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
 
-<head>
-    <title>Board Members</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <body>
+    @endsection
+    @section('content')
 
-<body>
     <div class="container mt-5">
         <div class="d-flex justify-content-between mb-3">
             <h2>Board Members</h2>
@@ -58,6 +62,5 @@
         </table>
 
     </div>
-</body>
 
-</html>
+@endsection

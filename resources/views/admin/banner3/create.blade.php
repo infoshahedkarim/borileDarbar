@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Upload Banner 1</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
+
+    <body>
+    @endsection
+    @section('content')
+
 <div class="container mt-5">
     <h2 class="mb-4">Add Banner 1</h2>
 
@@ -48,5 +54,4 @@
         <button type="submit" class="btn btn-primary">Save Banner 1</button>
     </form>
 </div>
-</body>
-</html>
+@endsection

@@ -1,6 +1,16 @@
-@extends('layouts.app') {{-- Replace with your admin layout --}}
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
 
-@section('content')
+    <body>
+    @endsection
+    @section('content')
+    
     <div class="container mt-5">
         <h2 class="mb-4">Add Banner Data</h2>
 

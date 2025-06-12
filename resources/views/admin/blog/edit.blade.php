@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Edit Blog Post</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
+
+    <body>
+    @endsection
+    @section('content')
+
 <div class="container mt-5">
     <h2>Edit Blog</h2>
 
@@ -45,5 +51,5 @@
         <a href="{{ route('admin.blog.index') }}" class="btn btn-secondary">Cancel</a>
     </form>
 </div>
-</body>
-</html>
+
+@endsection

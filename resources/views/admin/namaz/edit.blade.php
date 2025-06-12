@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Edit Namaz Times</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
+
+    <body>
+    @endsection
+    @section('content')
+
 <div class="container mt-5">
     <h2>Edit Namaz Times</h2>
 
@@ -29,5 +35,6 @@
         <button type="submit" class="btn btn-primary">Update Times</button>
     </form>
 </div>
-</body>
-</html>
+
+
+@endsection

@@ -47,7 +47,7 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="{{ route('nextorosh.index') }}" data-key="t-ecommerce">All Orosh</a></li>
-                        <li><a href="{{ route('nextorosh.create') }}" target="_blank" data-key="t-sales">Add Orosh</a></li>
+                        <li><a href="{{ route('nextorosh.create') }}" data-key="t-sales">Add Orosh</a></li>
                     </ul>
                 </li>
 

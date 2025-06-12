@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>History Editor</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+@extends('layouts.master')
+@section('title')
+    User Grid
+@endsection
+@section('page-title')
+    User Grid
+@endsection
+@section('body')
+
+    <body>
+    @endsection
+    @section('content')
+    
 <div class="container mt-5">
     <h2>Edit History Section</h2>
 
@@ -24,5 +30,5 @@
     </form>
 </div>
 <script src="/ckeditor/ckeditor.js"></script>
-</body>
-</html>
+
+@endsection
